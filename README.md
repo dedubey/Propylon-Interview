@@ -1,5 +1,5 @@
 # Propylon Test
-
+Clone the repo to your local machine.
 This requires some basic setup to run the terraform 
 
 Configure the aws credentials before running the Terraform Commands
