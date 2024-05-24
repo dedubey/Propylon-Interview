@@ -73,10 +73,11 @@ This creates a certificate for domain example.com and this certificate is import
 
 8. inventory.tf 
 
-       #This file creates 2 files 
-       First file is created in ansible directory called "hosts", this contains the IP addresses of the nginx EC2 
+    This file creates 2 files
+    
+       1. First file is created in ansible directory called "hosts", this contains the IP addresses of the nginx EC2 
        instances.This file is used by Ansible as inventory where it needs to install nginx and load basic config
-       Second file is created inside .ssh directory , this is the private key used to connect to all the EC2 instances.  
+       2. Second file is created inside .ssh directory , this is the private key used to connect to all the EC2 instances.  
 
 10. backend-infra.tf
 
