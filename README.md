@@ -23,11 +23,12 @@ If received an error while running terraform apply plan.json run it without the 
 # About the files
 1. vpc.tf
 
-This file creates the required VPC and the subnets .
-1.1  3 Public subnets 
-1.2  3 Private subnets 
-1.3  3 Database subnets
-1.4  3 nat gateways , one in each availbiity zone
+This file creates the required VPC and the subnets.  
+
+1.1   3 Public subnets   
+1.2   3 Private subnets  
+1.3   3 Database subnets  
+1.4   3 nat gateways , one in each availbiity zone
 
 This also creates NACLs to allow only private subnets to communicate with Database subnet.
 
