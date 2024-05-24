@@ -25,10 +25,10 @@ If received an error while running terraform apply plan.json run it without the 
 
 This file creates the required VPC and the subnets.  
 
- 1.1   3 Public subnets   
- 1.2   3 Private subnets  
- 1.3   3 Database subnets  
- 1.4   3 nat gateways , one in each availbiity zone
+   3 Public subnets   
+   3 Private subnets  
+   3 Database subnets  
+   3 nat gateways , one in each availbiity zone
 
 This also creates NACLs to allow only private subnets to communicate with Database subnet.
 
@@ -36,18 +36,18 @@ This also creates NACLs to allow only private subnets to communicate with Databa
 
 This file creates the required 3 EC2 instances in the private subnets
 
-   2.1   3 EC2 instances 
-   2.2   Security Group for the insatnces 
-   2.3   IAM role and IAM profile for the instances to access the s3 
-   2.4   private key to connect to EC2 instances
+      3 EC2 instances 
+      Security Group for the insatnces 
+      IAM role and IAM profile for the instances to access the s3 
+      private key to connect to EC2 instances
 
 3. alb.tf
 
 This file creates the ALB load balancer , 2 listeners and the target group 
 
-  3.1 front-end ALB
-  3.2 target group with 3 EC2 instances 
-  3.3 2 listeners 
+     front-end ALB
+     target group with 3 EC2 instances 
+     2 listeners 
 
 4. s3.tf
 
