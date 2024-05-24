@@ -1,7 +1,8 @@
 # Propylon Test
 Clone the repo to your local machine.  
-This requires some basic setup to run the terraform 
 
+
+This requires some basic setup to run the terraform 
 Configure the aws credentials before running the Terraform Commands
 
 AWS_ACCESS_KEY_ID  
